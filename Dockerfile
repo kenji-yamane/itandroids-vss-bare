@@ -110,4 +110,4 @@ RUN sudo dpkg -i libflycapture-2* \
 WORKDIR /binaries/
 
 # Run the specified command within the container.
-CMD ./agent -1s -noProj -f
+CMD ./agent -1s -noProj -f -noGUI
